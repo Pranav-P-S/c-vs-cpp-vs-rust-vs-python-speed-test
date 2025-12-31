@@ -1,0 +1,10 @@
+[package]
+name = "rust_turbo"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "rust_turbo"
+crate-type = ["cdylib"]  # <--- Crucial! "C-Dynamic Library"
+
+[dependencies]
